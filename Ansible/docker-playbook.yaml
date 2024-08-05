@@ -26,3 +26,5 @@
 
     - name: Run container
       command: docker run -d --name pet1 -p 8081:8080 dleoma/petstore:latest
+    - name: Verify Docker Container
+      command: docker ps -a
